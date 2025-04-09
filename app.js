@@ -13,8 +13,8 @@ dotenv.config();
 // Initialiser l'application Express
 const app = express();
 const PORT = process.env.PORT || 3000;
-const API_KEY = process.env.API_KEY || 'test';
-const JWT_SECRET = process.env.JWT_SECRET || 'test';
+const API_KEY = process.env.API_KEY || 'your_api_key_here';
+const JWT_SECRET = process.env.JWT_SECRET || 'your_jwt_secret';
 
 // Middleware
 app.use(cors());
